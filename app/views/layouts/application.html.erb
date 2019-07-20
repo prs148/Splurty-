@@ -38,6 +38,27 @@
 
     <br class="clear"/>
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+
+    <div class= "footer">
+      <div class="container">
+        <div clas="col 6">
+           <%= link_to "This isn't enough, I need more", "#" , class: 'next-quote' %>'
+        </div>
+        <div class ="col-6 footer-blurb">
+          Proudly Hacked by <a href= "https://splurty-peter-spizzirri.herokuapp.com"> Pete Spizzirri </a> 
+          <br/>
+          Want to Build your own splurty web app- <a herf="https://online.bootcampspot.com"> Learn how to code here </a>    
+        </div>
+          
+
+        <p class= "text-muted"> Place Sticky Footer Content here. </p>
+      </div>
+    </div>
+
+
   </body>
 </html>
