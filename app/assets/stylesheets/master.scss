@@ -1,5 +1,8 @@
 @import "bootstrap";
 
+
+
+
 .clear {
   clear:both 
 }
@@ -41,6 +44,9 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #E42B16;
+  font-family: 'quicksanditalic', sans-serif; 
+  font-weight: bold;
+
 }
 
 header {
@@ -50,5 +56,15 @@ header {
 
 hr {
   clear:both;
+}
+ 
+h1 { 
+  font-family: 'quicksanditalic', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 { 
+  font-family: 'quicksandlight_italic', sans-serif;
 }
 
